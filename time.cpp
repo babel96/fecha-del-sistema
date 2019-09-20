@@ -30,7 +30,11 @@ int main()
  cout <<"\n\nESTE ES EL DIA: ";
  cout <<x.dia;
 
-
-
   return 0;
 }
+
+    //// para hacer bkp:
+    /// system("copy datos\\datos.dat backups\\clientes.bkp")
+
+    /// system ("copy [direccion y nombre del archivo] [direccion y nombre del backup])";
+    /// NOTA: Para reponer el backup tenes que hacer lo mismo pero al reves.
